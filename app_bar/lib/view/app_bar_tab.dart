@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './baseView.dart';
+import './bottom_bar.dart';
 
 class TabbedAppBarSample extends StatelessWidget {
   @override
@@ -28,6 +29,7 @@ class TabbedAppBarSample extends StatelessWidget {
               );
             }).toList(),
           ),
+          //bottomNavigationBar: BottomBar(), //底部bar
         ),
       ),
     );
